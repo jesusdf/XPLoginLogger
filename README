@@ -1,0 +1,15 @@
+XPLoginLogger
+-------------
+
+An old and simple service, programmed in assembler, that logs username, password and domain on a Windows XP environment. It also serves as a MSGINA hooking example.
+This project was born from a requirement to automate login in other remote web services using the user's login and, as this happens quite frequenly, I release a simple version of it's source code under MASM32 license (since MASM32 project rejects any type of OSS license or re-licensing method):
+
+http://www.masm32.com/license.htm
+
+Note: This program does NOT hack, infect, damage nor make any persistent changes to the system, and it needs Adminsitrative privileges so as to install and use it (otherwise it will fail). Fails on Vista and 7 (no support for alternate GINA DLLs). You are responsible of any misuse of this code.
+
+Parameters:
+
+-i -> Install system service.
+-d -> Remove system service.
+
